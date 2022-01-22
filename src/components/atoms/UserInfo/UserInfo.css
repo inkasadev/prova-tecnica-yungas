@@ -1,0 +1,15 @@
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user-info__description {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.use-info__account-type {
+  font-size: 1.2rem;
+}

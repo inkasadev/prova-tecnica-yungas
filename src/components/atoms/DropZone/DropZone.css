@@ -1,0 +1,31 @@
+.drop-zone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.2rem;
+  width: 17rem;
+  height: 10rem;
+  color: #666666;
+  padding: 2rem;
+  cursor: pointer;
+  border: 3px dashed #666666;
+  border-radius: 10px;
+  margin-top: 6.5rem;
+  margin-bottom: 5rem;
+  align-self: center;
+}
+
+.drop-zone__prompt {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.drop-zone__thumb {
+  height: 100%;
+}
+
+.drop-zone__input {
+  display: none;
+}

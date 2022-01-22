@@ -1,0 +1,13 @@
+.badge {
+  color: var(--text-color-1);
+  font-size: 1.4rem;
+  background-color: var(--clr-success);
+  border-radius: 15px;
+  text-align: center;
+  padding: 0.3rem 1.8rem;
+  text-transform: uppercase;
+}
+
+.badge--disabled {
+  background-color: var(--clr-error);
+}

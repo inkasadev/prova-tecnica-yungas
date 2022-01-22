@@ -1,0 +1,10 @@
+.breadcrumb {
+  background-color: var(--clr-bg-breadcrumb);
+  display: flex;
+  gap: 20px;
+  padding: 1.4rem 3rem;
+}
+
+.breadcrumb__link {
+  background-color: var(--clr-bg-breadcrumb);
+}

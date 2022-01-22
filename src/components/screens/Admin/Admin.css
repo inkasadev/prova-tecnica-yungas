@@ -1,0 +1,8 @@
+.container {
+  position: relative;
+  transition: var(--transition);
+}
+
+.container--sidenav {
+  margin-left: 10rem;
+}

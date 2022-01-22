@@ -1,0 +1,18 @@
+.list-courses {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.list-courses__header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.list-courses__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

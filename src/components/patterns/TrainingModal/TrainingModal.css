@@ -1,0 +1,51 @@
+.side-modal {
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  padding: 30px;
+  width: 42rem;
+  z-index: 2;
+  top: 0;
+  left: calc(100%);
+  transition: var(--transition);
+}
+
+.side-modal--show {
+  left: calc(100% - 48rem);
+}
+
+.side-modal__buttons {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+}
+
+.side-modal__button--side {
+  width: 20%;
+  position: absolute;
+  right: 0;
+}
+
+.module-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.module-form__group {
+  display: flex;
+  flex-direction: column;
+}
+
+.module-form__group--span {
+  flex: 1 1 0;
+}
+
+.module-form__group--horizontal {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}

@@ -1,0 +1,21 @@
+.button {
+  background-color: var(--clr-info);
+  color: var(--clr-background);
+  border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0.5rem 3rem;
+  cursor: pointer;
+}
+
+.button--success {
+  background-color: var(--clr-success);
+}
+
+.button--error {
+  background-color: var(--clr-error);
+}
+
+.button--info {
+  background-color: var(--clr-info);
+}
