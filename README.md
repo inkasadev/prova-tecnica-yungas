@@ -8,7 +8,7 @@ A tarefa consiste em implementar as ações do módulo seguindo a linha estétic
 
 [Mockup](https://www.figma.com/file/9RCzRXNv6iELZd2sJfQ59x/Teste-Front-end-Yungas?node-id=0%3A1)
 
-[Link para o repositório do desafio](https://www.figma.com/file/9RCzRXNv6iELZd2sJfQ59x/Teste-Front-end-Yungas?node-id=0%3A1)
+[Link para o repositório do desafio](https://github.com/kvdos-argonaut/yungas-front-challenge)
 
 ## Instalação
 
