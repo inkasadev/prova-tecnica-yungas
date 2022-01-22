@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Prova Técnica Yungas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Yungas é uma plataforma para redes de franquias com diversos módulos. A ideia desse desafio é simular, de maneira simplificada, o processo de desenvolvimento de um módulo da plataforma: o módulo de Treinamento.
 
-## Available Scripts
+O módulo de Treinamento é utilizado pelos clientes da Yungas para facilitar a capacitação de colaboradores e franqueados de suas redes, melhorando a produtividade dos colaboradores e o desempenho das franquias.
 
-In the project directory, you can run:
+A tarefa consiste em implementar as ações do módulo seguindo a linha estética dos mockups. Sinta-se livre para tomar suas próprias decisões de UI/UX e preencher "gaps" nos [mockups](https://www.figma.com/file/9RCzRXNv6iELZd2sJfQ59x/Teste-Front-end-Yungas?node-id=0%3A1).
 
-### `npm start`
+[Mockup](https://www.figma.com/file/9RCzRXNv6iELZd2sJfQ59x/Teste-Front-end-Yungas?node-id=0%3A1)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[Link para o repositório do desafio](https://www.figma.com/file/9RCzRXNv6iELZd2sJfQ59x/Teste-Front-end-Yungas?node-id=0%3A1)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instalação
 
-### `npm test`
+```sh
+$ npm install
+$ npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Implementação
 
-### `npm run build`
+| Legenda                       |
+| ----------------------------- |
+| ✅ Implementado               |
+| 🔳 Implementado com ressalvas |
+| ⬜ Não implementado           |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Ação 1: Cadastrar, editar e deletar novo curso
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- ✅ Eu, cliente da Yungas, quero cadastrar cursos para colaboradores da minha rede de franquias, para facilitar treinamentos e melhorar o desempenho da rede.
+- ✅ Quero que meus cursos tenham capas, descrições e carga horária.
+- ✅ Opcionalmente quero poder definir datas de ativação e de desativação.
+- ⬜ Quero poder editar todos esses atributos depois da criação do curso.
+- ⬜ Quero poder deletar um curso, e todas suas aulas e módulos, da plataforma.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Ação 2: Cadastrar, editar e deletar módulos
 
-### `npm run eject`
+- ⬜ Eu, usuário da Yungas que criou um curso, quero separar meu curso em módulos, ordenados, para melhor organizar o conteúdo do curso.
+- ⬜ Quero que meus módulos tenham nomes e descrições, além de poder ativar ou desativar módulos quando quiser.
+- ⬜ Opcionalmente quero poder dar capas e cargas horárias aos meus módulos.
+- ⬜ Quero poder editar todos esses atributos depois da criação do módulo.
+- ⬜ Quero poder deletar um módulo, e todas suas aulas, da plataforma.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Ação 3: Cadastrar, editar e deletar aulas
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- ⬜ Eu, usuário da Yungas que criou um módulo, quero cadastrar aulas, ordenadas, desse módulo.
+- ⬜ Quero escrever o conteúdo da minha aula em um editor de rich-text, e poder inserir imagens ou vídeos no conteúdo.
+- ⬜ Quero poder editar o conteúdo da aula depois de sua criação.
+- ⬜ Quero poder deletar a aula da plataforma.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Comentários e documentação
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- A ser criada...
 
-## Learn More
+## Versionamento
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Usamos [SemVer](http://semver.org/) para versionamento. Para as versões
+disponíveis, veja as
+[tags neste repositório](https://github.com/inkasadev/prova-tecnica-studiosol/tags).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Autor
 
-### Code Splitting
+| ![Phillipe Martins](https://avatars.githubusercontent.com/u/7750404?v=4&s=150) |
+| :----------------------------------------------------------------------------: |
+|               [Phillipe Martins](https://github.com/inkasadev/)                |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Licença
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto está licenciado sob a Licença MIT - veja o arquivo
+[LICENSE.md](LICENSE.md) para detalhes.
